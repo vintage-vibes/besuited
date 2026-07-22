@@ -476,7 +476,7 @@ padding: 30px 0px;
 
 /* Content */
  .swiper-content {
-    padding: 25px;
+    padding: 10px 15px;
 }
 
 .swiper-content h3 {
@@ -504,13 +504,13 @@ padding: 30px 0px;
     font-weight: 700;
     color: #d4af37;
     text-decoration: none;
-} */
+} 
 
 
 .hero-btn {
     display: inline-block;
     padding: 12px 24px;
-    background: #111;
+    background:transparent;
     color: #fff;
     text-decoration: none;
     border-radius: 50px;
@@ -991,6 +991,43 @@ padding: 30px 0px;
     align-items: center;
     justify-content: center;
 }
+
+.card-footer {
+    flex-wrap: wrap;
+}
+
+
+.swiper-content {
+    padding: 10px 15px;
+}
+
+.swiper-content h3 {
+    font-size: 1.2rem;
+    font-family: "Playfair Display", serif;
+    color: #111;
+    margin-bottom: 10px;
+}
+
+.description {
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    font-size: 0.88em;
+}
+
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #d4af37;
+    text-decoration: none;
+} 
 
     
 }
